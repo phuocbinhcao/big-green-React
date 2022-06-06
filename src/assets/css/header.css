@@ -1,0 +1,191 @@
+.header-top{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.search{
+    border: 1px solid #dadada;
+    border-radius: 28px;
+    display: flex;
+    justify-self: space-between;
+    padding: 2px;
+    width: 350px;
+}
+.search input{
+    width: 85%;
+    margin: 0 20px;
+    font-size: 18px;
+    border:none;
+    outline: none;
+}
+.search i{
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+.search i:hover{
+    background-color: rgb(250, 248, 248);
+    color: green;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+}
+.contact-me{
+    display: flex;
+    border: 1px solid #dadada;
+    padding: 0 12px;
+    border-radius: 50px;
+    color: green;
+}
+.phone-icon{
+    font-size: 30px;
+    padding: 10px;
+}
+.support h2{
+    font-size: 25px;
+    margin-top: 3px;
+}
+.support h2:hover{
+    color: rgb(245, 143, 18);
+    cursor: pointer;
+}
+.users{
+    position: relative;
+}
+.users i, .cart i{
+    font-size: 30px;
+    margin-left: 15px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+}
+.iconUser{
+    background-color: orange !important;
+}
+.users i:hover,.cart i:hover{
+    cursor: pointer;
+}
+ul.logIn-logOut{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 70px;
+    margin-top: 5px;
+    z-index: 1;
+    transition: 0.8s;
+    background-color: #fff;
+    border: 1px solid rgb(105, 167, 12);
+}
+.users:hover ul.logIn-logOut{
+    visibility: visible;
+    opacity: 1;
+}
+.logIn-logOut li{
+    width: 170px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.logIn-logOut li:first-child{
+    border-bottom: 1px solid rgb(105, 167, 12);
+}
+.logIn-logOut li span, .logIn-logOut li a{
+    color: rgb(46, 45, 45);
+    display: block;
+}
+.logIn-logOut li a{
+    text-decoration: none;
+}
+.logIn-logOut li span:hover, .logIn-logOut li a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#txtNameUser{
+    color: orangered ;
+}
+.user-login{
+    background-color: rgb(248, 103, 51) !important;
+}
+/* Menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+#main-menu{
+    display: flex;
+}
+#main-menu li{
+    list-style: none;
+    position: relative;
+}
+#main-menu li i{
+    font-size: 15px;
+}
+#main-menu li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 40px;
+    font-size: 18px;
+    color: white;
+}
+#main-menu li:hover > a{
+    color: orangered;
+}
+#main-menu li:hover >  ul.sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+#main-menu ul.sub-menu{
+    margin-top: 1px;
+    position: absolute;
+    background-color: green;
+    width: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.8s;
+    z-index: 1;
+}
+#main-menu ul.sub-menu a{
+    padding: 10px 15px;
+    left: 0;
+    border-bottom: 1px solid #dadada;
+}
+#main-menu ul.sub-menu ul.sub-menu{
+    left: 201px;
+    top: -1px;
+}
+#main-menu>li.hash-child::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f107";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 22px 0;
+    color: white;
+}
+#main-menu>li.hash-child:hover::after{
+    color: orangered;
+}
+#main-menu .sub-menu>li.hash-child::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: "\f105";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 14px 10px 14px 0;
+    color: white;
+}
+#main-menu .sub-menu>li.hash-child:hover::after{
+    color: orangered;
+}

@@ -1,0 +1,116 @@
+.footer{
+    width: 100%;
+    padding: 0px;
+    background-color: #f0ecec;
+}
+.footer-support{
+    width: 60%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+}
+.footer-support1 > p{
+    margin: 20px 0;
+    color: #525050;
+    line-height: 25px;
+}
+.call-me{
+    display: flex;
+}
+.call-me i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.footer-support1  h2{
+    margin-top: 5px;
+    color: orangered;
+}
+.footer-support1{
+    width: 33.33%;
+    margin-right: 20px;
+}
+.footer-support1>p>a{
+    text-decoration: none;
+    color: green;
+}
+.footer-support1>p>a:hover{
+    color: orangered;
+}
+.support1{
+    padding-top: 30px;
+}
+.footer-support2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-support1:last-child{
+    margin-right: unset;
+}
+.footer-copyright{
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.list-support{
+    width: 100%;
+    display: flex;
+}
+.list-support1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.list-support1 a{
+    text-decoration: none;
+    color: #525050;
+    margin-top: 10px;
+}
+.list-support1 a:hover{
+    color: orangered;
+}
+.register{
+    display: flex;
+    margin-top: 20px;
+}
+.register i{
+    font-size: 60px;
+    margin-right: 15px;
+    color: green;
+}
+.registerMail > h1,.registerMail > p{
+    color: rgb(70, 71, 70);
+}
+
+.sigUp{
+    background-color: #fff;
+    border-radius: 20px 0 20px 0 ;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 50px;
+    margin-top: 25px;
+}
+.sigUp #mail{
+    height: 100%;
+    margin-right: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+.sigUp #submit{
+    height: 100%;
+    width: 27%;
+    background-color: rgb(2, 155, 2);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.sigUp #submit:hover{
+    cursor: pointer;
+    background-color: orange;
+}

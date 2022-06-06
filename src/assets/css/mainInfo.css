@@ -1,0 +1,52 @@
+.main-info-banner{
+    position: relative;
+}
+.main-info{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 20px 0;
+}
+.info-banner{
+    display: flex;
+}
+.banner-img img{
+    border-radius: 50% 25px 25px 25px;
+}
+.banner-info{
+    text-align: center;
+    padding: 20px;
+    line-height: 35px;
+}
+.img-intro{
+    padding: 15px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -50px;
+    right:10px;
+    border-radius: 15px;
+}
+.img-intro img{
+    margin-right: 20px;
+}
+.img-intro img:last-child{
+    margin-right: unset;
+}
+.banner-info h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner-info h1{
+    color: green;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: monospace;
+    margin: 25px 0;
+}
+.banner-info p{
+    color: #585656;
+}
+.banner-info p a{
+    color: green;
+    text-decoration: none;
+}
